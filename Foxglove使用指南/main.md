@@ -9,10 +9,18 @@ sudo apt install ros-$ROS_DISTRO-foxglove-bridge
 3. 与 `NUC` 构建网络连接，可以通过Wifi或者网线使调试电脑和 NUC 在同一局域网段，不推荐使用 Wifi 进行调试，卡顿是常有的事
 
 ### 启动 Foxglove Bridge
+
+在你的**车载 NUC** 中进行
 ```sh
 # terminal in nuc, then topics will be forwarded to your pc
 ros2 launch foxglove_bridge foxglove_bridge_launch.xml
 ```
+
+### 启动 Foxglove Studio
+
+在你的**调试用电脑**中进行
+1. 打开 `Webview` 或者 `Application`
+2. 登陆账户`(optional)`
 
 ### 使用 Foxglove Studio 查看可视化消息
 ### 使用 Foxglove Studio 查看参数曲线
