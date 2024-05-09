@@ -1,5 +1,5 @@
 ### 准备工作
-1. 在NUC环境中下载`Foxglove Bridge`，，此为[文档连接](https://docs.foxglove.dev/docs/connecting-to-data/ros-foxglove-bridge/)，在`Linux`环境中使用下面指令下载
+1. 在NUC环境中下载`Foxglove Bridge`，此为[文档连接](https://docs.foxglove.dev/docs/connecting-to-data/ros-foxglove-bridge/)，在`Linux`环境中使用下面指令下载
 ```sh
 sudo apt install ros-$ROS_DISTRO-foxglove-bridge
 ```
